@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Word Game</title>
+  </head>
+  <body>
+    <header>
+      <h1>WordBeater</h1>
+      <div class="btn">
+        <button id="easy">Easy</button>
+        <button id="medium">Medium</button>
+        <button id="hard">Hard</button>
+      </div>
+    </header>
+
+    <p>Type a word within <span id="stage-time"></span> seconds</p>
+
+    <h1 id="display-word">Lucky</h1>
+
+    <input type="text" id="input" placeholder="Enter words" autofocus />
+    <p id="mgs"></p>
+    <h3 id="countdown">Time Left: <span>0</span></h3>
+    <h3 id="score">Score: <span>0</span></h3>
+
+    <div class="instruction">
+      <h2 id="head">Instruction</h2>
+      <p id="body">
+        Type fast and correctly to beat your high score. To restart, just type
+        the last the current word on the screen
+      </p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

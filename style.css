@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  text-align: center;
+  color: white;
+  background: #2b2727;
+  height: 100vh;
+}
+
+header {
+  background-color: cadetblue;
+}
+
+header h1 {
+  padding: 30px;
+}
+
+p {
+  padding-top: 30px;
+}
+
+p span {
+  color: green;
+  font-weight: bold;
+}
+
+#display-word {
+  font-size: 3rem;
+  padding: 30px;
+}
+
+#input {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 40%;
+}
+
+#input:focus {
+  outline: 0;
+}
+
+#mgs {
+  padding-bottom: 30px;
+}
+
+#countdown,
+#score {
+  font-weight: 100;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#countdown span,
+#score span {
+  color: lawngreen;
+}
+
+.instruction {
+  width: 40%;
+  background-color: cadetblue;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.btn button {
+  padding: 5px;
+  border: none;
+  margin: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 9px;
+}
+
+.btn button:hover {
+  color: white;
+  background-color: cadetblue;
+}
+
+.btn button:focus {
+  outline: 0;
+}
+
+.btn button:active {
+  background-color: green;
+}
+/*# sourceMappingURL=style.css.map */
